@@ -1,0 +1,323 @@
+html {
+  min-height: 100%;
+  margin: 0;
+}
+body {
+  min-height: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: whitesmoke;
+}
+header{
+  height:50px;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  height:52px ;
+  top: 0;
+  margin: 0;
+}
+#logop{
+  position: absolute;
+  left: 1.2%;
+  size: 30px;
+  margin: 20px;
+}
+#label {
+  color: rgb(201, 21, 21);
+  position: absolute;
+  left: 5%;
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#home{
+  height: 21px;
+  position: absolute;
+  left: 23%;
+  bottom: 4px;
+}
+
+#answer {
+  height: 19px;
+  position: absolute;
+  left: 30%;
+  bottom: 4px; 
+}
+#notifications {
+  height: 23px;
+  position: absolute;
+  left: 30%;
+  bottom: 3px;
+}
+
+a .tooltiptext {
+  visibility: hidden;
+  width: 60px;
+  background-color: rgb(201, 21, 21);
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+  padding: 5px;
+  font-size: 12px;
+
+  /* Position the tooltip */
+  position: absolute;
+  left: 21%;
+  top: 53px;
+  z-index: 1;
+}
+
+a:hover .tooltiptext {
+  visibility: visible;
+}
+
+a .following {
+  visibility: hidden;
+  width: 60px;
+  background-color: rgb(201, 21, 21);
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+  padding: 5px;
+  font-size: 12px;
+
+  /* Position the tooltip */
+  position: absolute;
+  left: 26%;
+  top: 53px;
+  z-index: 1;
+}
+
+a:hover .following {
+  visibility: visible;
+}
+
+
+a .answer {
+  visibility: hidden;
+  width: 100px;
+  background-color: rgb(201, 21, 21);
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+  padding: 5px;
+  font-size: 12px;
+
+  /* Position the tooltip */
+  position: absolute;
+  left: 30%;
+  top: 53px;
+  z-index: 1;
+}
+
+a:hover .answer{
+  visibility: visible;
+}
+
+a .notifications {
+  visibility: hidden;
+  width: 70px;
+  background-color: rgb(201, 21, 21);
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+  padding: 5px;
+  font-size: 12px;
+
+  /* Position the tooltip */
+  position: absolute;
+  left: 28%;
+  top: 53px;
+  z-index: 1;
+}
+
+a:hover .notifications{
+  visibility: visible;
+}
+input[type=text] {
+  padding: 5px;
+  border: 0.5px solid rgb(65, 55, 55);
+  border-radius: 5px;
+  margin-top: 7px;
+  margin-right: 14px;
+  font-size: 13px;
+  position: absolute;
+  right: 42%;
+  top: 13px;
+}
+#searcher {
+  padding: 5px;
+  border: 0.5px solid rgb(65, 55, 55);
+  border-radius: 5px;
+  margin-top: 7px;
+  margin-right: 14px;
+  font-size: 13px;
+  position: absolute;
+  right: 20%;
+  top: 13px;
+}
+button{
+  position: absolute;
+  right: 25%;
+  top: 20px;
+  padding: 4px;
+  border-radius: 20px;
+  width: 100px;
+  color: white;
+  background-color: rgb(201, 21, 21);
+  border: 2px solid rgb(201, 21, 21);
+}
+
+#login  {
+  position: absolute;
+  right: 5%;
+  top: 20px;
+  padding: 3px;
+  border: 2px solid rgb(201, 21, 21);
+  border-radius: 20px;
+  width: 90px;
+  color: white;
+  background-color: rgb(201, 21, 21);
+  font-size: 14px;
+  text-align: center;
+}
+
+#logout {
+  position: absolute;
+  right: 3%;
+  top: 20px;
+  padding: 4px;
+  border: 1px solid rgb(201, 21, 21);
+  color: white;
+  background-color: rgb(201, 21, 21);
+  font-size: 14px;
+  text-align: center;
+}
+#check{
+  position: absolute;
+  right: 2%;
+  top: 10%;
+  color: red;
+  width: 210px;
+  text-align: left;
+}
+#see{
+  position: absolute;
+  right: 0%;
+  top: 10%;
+  color: red;
+  width: 210px;
+  text-align: left;
+}
+#post {
+  position: absolute;
+  right: 14%;
+  top: 0px;
+  border: 1px solid rgb(201, 21, 21);
+  
+}
+
+a {
+  text-decoration: none;
+  color: white;
+ display: block;
+}
+a:hover{
+  color: rgb(142, 237, 250); 
+}
+nav{
+position: fixed;
+float: left;
+height: 100%;
+width: 250px;
+ background-color: rgb(233, 220, 220);
+z-index: -1;
+}
+article{
+float: right;
+margin-right: 20%;
+background-color:whitesmoke;
+height: 5000px;
+width: 60%;
+}
+section{
+position: fixed;
+right: 0;
+ height: 100%;
+ width: 250px;
+ background-color: rgb(253, 251, 251);
+ z-index: -1;
+}
+
+
+
+textarea{
+position: fixed;
+left: 28%;
+height:60% ;
+width: 60%;
+max-width: 550px;
+max-height: 300px;
+min-width: 550px;
+min-height: 300px;
+}
+#file{
+position: fixed;
+left: 29%;
+bottom:17%;
+}
+label{
+position: fixed;
+left: 29%;
+bottom: 22%; 
+}
+#subm{
+position: fixed;
+right: 30%;
+bottom:17%; 
+background-color: rgb(224, 55, 55);
+color: white;
+font-size: 15px;
+border-radius: 10px;
+}
+#spaces{
+position: absolute;
+top: 80px;
+text-align: center;
+left: 10%;
+}
+ul li {
+list-style-type:none;
+padding: 15px;
+}
+img{
+height: 30px;
+}
+
+#modal{
+  border: 1px solid black;
+  width: 70%;
+  height: 80%;
+  position: fixed;
+  left:15%;
+  top: 13%;
+  text-align: center;
+  margin: 5px;
+}
+
+
+@media screen and (max-width: 1000px) {
+article{
+  background-color: green;
+  width: 100%;
+  margin: 0;
+}
+nav{
+  display: none;
+}
+section{
+  display: none;
+}
+}

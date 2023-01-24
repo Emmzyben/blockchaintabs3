@@ -1,0 +1,67 @@
+body{
+background-image: url("web3.png");
+background-repeat: no-repeat;
+background-size: cover;
+}
+#login{
+    background-color: white;
+    height: 600px;
+    width: 700px;
+    position: fixed;
+    left: 22%;
+    bottom: 7%;
+    border-radius: 15px;
+}
+h1{
+    text-align: center;
+    color: rgb(201, 21, 21);
+    font-size: 40px;
+}
+#p1{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+#p2{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+#headz{
+    position: fixed;
+    left: 30%;
+    top: 25%;
+}
+#formz{
+    position:fixed;
+    left: 30%;
+    top: 34%;
+}
+
+#register{
+    position: fixed;
+    left: 30%;
+    top: 60%;
+}
+#regist{
+    position: fixed;
+    left: 30%;
+    top: 70%;
+}
+ button {
+    background-color: rgb(233, 168, 168);
+    color: white;
+    height: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    
+}
+a {
+    text-decoration: none;
+    color: rgb(141, 15, 15);
+}
+
+#submit{
+    margin-top: 30px;
+}
+
