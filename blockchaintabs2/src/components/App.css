@@ -248,6 +248,7 @@ right: 0;
 
 textarea{
 position: fixed;
+top: 35%;
 right: 2%;
 height:40% ;
 width: 40%;
@@ -259,23 +260,22 @@ min-height: 200px;
 #file{
 position: fixed;
 right: 2%;
-bottom:30%;
+top: 69%;
 width: 200px;
 }
 label{
 position: fixed;
-right: 9%;
-bottom: 35%; 
+right: 10%;
+bottom: 32%; 
 }
 #subm{
 position: fixed;
-right: 2%;
-bottom:24%; 
+right:6%;
+top: 75%;
 background-color: rgb(224, 55, 55);
 color: white;
 font-size: 15px;
 border-radius: 10px;
-width: 200px;
 }
 #spaces{
 position: absolute;
